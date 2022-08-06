@@ -54,7 +54,7 @@ module RISC(clk, rst);
 	wire zFlag;
 	PC pc1(clk, rst, PCNext, PC);
 	
-	programMem InstructionMemory(.InsOut(InsOut), .in(PC), .rst(rst)); //Instruction Memory
+	programMem InstructionMemory(.clk(clk), .InsOut(InsOut), .in(PC), .rst(rst)); //Instruction Memory
 
 	mainDecoder main_decoder(.RegWrite(RegWrite), .ImmSrc(ImmSrc), .ALUSrc(ALUSrc), .MemWrite(MemWrite), .ResultSrc(ResultSrc), .PCSrc(PCSrc), .Branch(Branch), .jump(jump), .ALUOp(ALUOp), .opcode(opcode));
 	

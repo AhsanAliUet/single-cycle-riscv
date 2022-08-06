@@ -11,8 +11,10 @@ module tb_RISC();
 	RISC my_RISC(clk, rst);
 	
 	initial begin
-		rst = 1;
-		#2; rst = 0;
+		rst = 0;
+		#2; rst = 1;
+		#4; rst = 0;
+		#300; $stop;
 	end
 
 endmodule

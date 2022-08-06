@@ -51,6 +51,7 @@ module RISC(clk, rst);
 	wire Branch;
 	wire jump;
 
+	wire zFlag;
 	PC pc1(clk, rst, PCNext, PC);
 	
 	programMem InstructionMemory(.InsOut(InsOut), .in(PC), .rst(rst)); //Instruction Memory
@@ -61,7 +62,7 @@ module RISC(clk, rst);
 	
 	ALUDecoder aluDecod(.ALUop(ALUOp), .func3(func3), .op5(op5), .func7_5(func7_5), .ALUControl(ALUControl));
 	
-	ALU alu(.ALUout(ALUout), .ALUin1(RD1), .ALUin2(ALUin2), .control(ALUControl));
+	ALU alu(.ALUout(ALUout), .ALUin1(RD1), .ALUin2(ALUin2), .control(ALUControl), .zFlag(zFlag));
 	dMemory dataMem(.clk(clk), .rst(rst), .A(ALUout), .WD(RD2), .RD(RD), .writeEn(MemWrite));
 	RegFile regFile(.clk(clk), .rst(rst), .data_in(WD3), .writeEn(RegWrite), .addr(InsOut[11:7]), .data_out1(RD1), .data_out2(RD2), .readAddr1(InsOut[19:15]), .readAddr2(InsOut[24:20]));
 

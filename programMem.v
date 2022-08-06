@@ -1,5 +1,5 @@
 `timescale 1ns/1ps
-module programMem(InsOut, in, rst);    //InsOut = Output instruction
+module programMem(clk, InsOut, in, rst);    //InsOut = Output instruction
 	
 	//while instiating this module, we will give PC as input to this module
 	
@@ -7,6 +7,7 @@ module programMem(InsOut, in, rst);    //InsOut = Output instruction
 	
 	//other way round is we can read data from external txt file which contains instructions and then these are loaded in instruction/program memory
 	input [31:0] in;    //PC in place of it. actually it is read address.
+	input clk;
 	input rst;
 	
 	output reg [31:0] InsOut;
@@ -14,10 +15,10 @@ module programMem(InsOut, in, rst);    //InsOut = Output instruction
 	integer i;
 	
 	initial begin
-		$readmemb("C://Users//Ahsan Ali//OneDrive//Desktop//Complete_Assembler//machineCodes.txt", Registers);     //read hexadecimal
+		$readmemb("C://Users//Ahsan Ali//OneDrive//Desktop//Assembly-To-Machine-Code-RISC-V-master//machineCodeInBinary.txt", Registers);     //read hexadecimal
 	end
 	
-	always @ (*)
+	always @ (posedge clk)
 	begin
 		if (!rst) begin
 			InsOut <= Registers[in];              //Instruction is coming out

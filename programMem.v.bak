@@ -1,5 +1,5 @@
 `timescale 1ns/1ps
-module programMem(InsOut, in, rst);    //InsOut = Output instruction
+module programMem(clk, InsOut, in, rst);    //InsOut = Output instruction
 	
 	//while instiating this module, we will give PC as input to this module
 	
@@ -14,13 +14,17 @@ module programMem(InsOut, in, rst);    //InsOut = Output instruction
 	integer i;
 	
 	initial begin
-		$readmemb("C://Users//Ahsan Ali//OneDrive//Desktop//Complete_Assembler//machineCodes.txt", Registers);     //read hexadecimal
+		$readmemb("C://Users//Ahsan Ali//OneDrive//Desktop//Assembly-To-Machine-Code-RISC-V-master//machineCodeInBinary.txt", Registers);     //read hexadecimal
 	end
 	
-	always @ (*)
+	always @ (posedge clk)
 	begin
 		if (!rst) begin
 			InsOut <= Registers[in];              //Instruction is coming out
+		end
+		
+		else begin
+			InsOut <= 0;
 		end
 	end
 	
