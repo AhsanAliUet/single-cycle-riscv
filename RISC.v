@@ -40,7 +40,7 @@ module RISC(clk, rst);
 	wire [1:0] ImmSrc;
 	
 	wire [31:0] RD1;   //data output 1 from Reg file
-	wire [31:0] RD2;	//data output 1 from Reg file
+	wire [31:0] RD2;	//data output 2 from Reg file
 	
 	wire [31:0] WD3;   //data in of Reg file
 	
