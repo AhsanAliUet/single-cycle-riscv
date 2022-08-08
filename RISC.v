@@ -13,7 +13,8 @@ module RISC(clk, rst);
 	wire [31:0] PCTarget;
 	
 	wire [31:0] InsOut;  //instruction out, encoded one
-	wire [31:0] ALUin1, ALUin2;
+	//wire [31:0] ALUin1;
+	wire [31:0] ALUin2;
 	
 	
 	wire [6:0] opcode;
@@ -62,10 +63,13 @@ module RISC(clk, rst);
 	
 	ALUDecoder aluDecod(.ALUop(ALUOp), .func3(func3), .op5(op5), .func7_5(func7_5), .ALUControl(ALUControl));
 	
-	ALU alu(.ALUout(ALUout), .ALUin1(RD1), .ALUin2(ALUin2), .control(ALUControl), .zFlag(zFlag));
+	
+	
 	dMemory dataMem(.clk(clk), .rst(rst), .A(ALUout), .WD(RD2), .RD(RD), .writeEn(MemWrite));
 	RegFile regFile(.clk(clk), .rst(rst), .data_in(WD3), .writeEn(RegWrite), .addr(InsOut[11:7]), .data_out1(RD1), .data_out2(RD2), .readAddr1(InsOut[19:15]), .readAddr2(InsOut[24:20]));
 
+	ALU alu(.ALUout(ALUout), .ALUin1(RD1), .ALUin2(ALUin2), .control(ALUControl), .zFlag(zFlag));
+	
 	mux_2x1 mux1(.in0(RD2), .in1(ImmExt), .out(ALUin2), .s(ALUSrc));
 	
 	mux_2x1_2_bit mux2(.in0(ALUout), .in1(RD), .in2(PCPlus4), .out(WD3), .s(ResultSrc));

@@ -9,6 +9,7 @@ module ALU(ALUout, ALUin1, ALUin2, control, zFlag);
 	
 	always @ (*)
 	begin
+		zFlag = (ALUin1 == ALUin2);
 		case (control)
 			3'b000: begin
 					ALUout <= ALUin1 + ALUin2;    //add
@@ -41,7 +42,7 @@ module ALU(ALUout, ALUin1, ALUin2, control, zFlag);
 
 
 			
-			default: begin ALUout <= ALUin1; end
+			default: begin ALUout <= ALUin1 + ALUin2; end
 			
 		endcase
 	end
