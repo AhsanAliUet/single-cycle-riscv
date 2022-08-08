@@ -20,7 +20,7 @@ module programMem(clk, InsOut, in, rst);    //InsOut = Output instruction
 		
 	end
 	
-	always @ (posedge clk)
+	always @ (*)   //
 	begin
 		if (!rst) begin
 			InsOut <= Registers[in];              //Instruction is coming out
@@ -120,4 +120,3 @@ Registers[33] = 32'h006004EF;
 */	
 	//end
 endmodule
-//is ready

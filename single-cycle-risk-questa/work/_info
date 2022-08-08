@@ -7,363 +7,362 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dD:/Installed_QuestaSim/examples
+dD:/Installed_QuestaSim/examples
 T_opt
-!s110 1659960842
-Vja=e2V6;OYUa<WNQ;94gg3
+!s110 1659967935
+V=EeD]V_mb6?QZaX<<i1LG1
 04 7 4 work tb_RISC fast 0
-=1-c45444589bc8-62f0fe0a-26d-21a0
+=1-c45444589bc8-62f119be-3a4-1820
 o-quiet -auto_acc_if_foreign -work work +acc
-Z1 tCvgOpt 0
+Z0 tCvgOpt 0
 n@_opt
 OL;O;10.6c;65
-R0
 vadder
-Z2 !s110 1659964262
+Z1 !s110 1659967919
 !i10b 1
 !s100 @QoDicFT^nnhcN9jHXOV`1
 Idg?4<lS]5c5^e5Xd5`FXS0
-Z3 VDg1SIo80bB@j0V0VzS_@n1
-Z4 dC:/Users/Ahsan Ali/OneDrive/Desktop/risk/single-cycle-risk-questa
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/Ahsan Ali/OneDrive/Desktop/risk/single-cycle-risk-questa
 w1651046777
 8C:/Users/Ahsan Ali/OneDrive/Desktop/risk/adder.v
 FC:/Users/Ahsan Ali/OneDrive/Desktop/risk/adder.v
 L0 2
-Z5 OL;L;10.6c;65
+Z4 OL;L;10.6c;65
 r1
 !s85 0
 31
-Z6 !s108 1659964262.000000
+Z5 !s108 1659967919.000000
 !s107 C:/Users/Ahsan Ali/OneDrive/Desktop/risk/adder.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Ahsan Ali/OneDrive/Desktop/risk/adder.v|
 !i113 0
-Z7 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-R1
+Z6 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R0
 vALU
-R2
+R1
 !i10b 1
 !s100 Im[51ZZC7KcfD>fZXZ_Jh3
 I8<Cd^0MmL44UoQblZ]lDK0
+R2
 R3
-R4
 w1659959693
 8C:/Users/Ahsan Ali/OneDrive/Desktop/risk/ALU.v
 FC:/Users/Ahsan Ali/OneDrive/Desktop/risk/ALU.v
 L0 2
-R5
+R4
 r1
 !s85 0
 31
-R6
+R5
 !s107 C:/Users/Ahsan Ali/OneDrive/Desktop/risk/ALU.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Ahsan Ali/OneDrive/Desktop/risk/ALU.v|
 !i113 0
-R7
-R1
+R6
+R0
 n@a@l@u
 vALUDecoder
-Z8 !s110 1659964263
+R1
 !i10b 1
 !s100 6P<E>`7@SXg6DjgXYRN7;1
 I>ZBUD0[0^_i=@eIS1JnS53
+R2
 R3
-R4
 w1653637889
 8C:/Users/Ahsan Ali/OneDrive/Desktop/risk/ALUDecoder.v
 FC:/Users/Ahsan Ali/OneDrive/Desktop/risk/ALUDecoder.v
 L0 2
-R5
+R4
 r1
 !s85 0
 31
-Z9 !s108 1659964263.000000
+R5
 !s107 C:/Users/Ahsan Ali/OneDrive/Desktop/risk/ALUDecoder.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Ahsan Ali/OneDrive/Desktop/risk/ALUDecoder.v|
 !i113 0
-R7
-R1
+R6
+R0
 n@a@l@u@decoder
 vcontrolUnit
-R8
+R1
 !i10b 1
 !s100 AOja^nOOJM0X40jZm]g7Y1
 INkm[W@BDWWD;3OE[RB<e01
+R2
 R3
-R4
 w1653237941
 8C:/Users/Ahsan Ali/OneDrive/Desktop/risk/controlUnit.v
 FC:/Users/Ahsan Ali/OneDrive/Desktop/risk/controlUnit.v
 L0 1
-R5
+R4
 r1
 !s85 0
 31
-R9
+R5
 !s107 C:/Users/Ahsan Ali/OneDrive/Desktop/risk/controlUnit.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Ahsan Ali/OneDrive/Desktop/risk/controlUnit.v|
 !i113 0
-R7
-R1
+R6
+R0
 ncontrol@unit
 vdMemory
-R8
+Z7 !s110 1659967920
 !i10b 1
 !s100 U[ZUXUgZaNKXC9CLf:9Sf2
 IaD4i4^zjc]A:7k<[Pk::c3
+R2
 R3
-R4
 w1653658312
 8C:/Users/Ahsan Ali/OneDrive/Desktop/risk/dMemory.v
 FC:/Users/Ahsan Ali/OneDrive/Desktop/risk/dMemory.v
 L0 2
-R5
+R4
 r1
 !s85 0
 31
-R9
+Z8 !s108 1659967920.000000
 !s107 C:/Users/Ahsan Ali/OneDrive/Desktop/risk/dMemory.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Ahsan Ali/OneDrive/Desktop/risk/dMemory.v|
 !i113 0
-R7
-R1
+R6
+R0
 nd@memory
 vmainDecoder
-R8
+R7
 !i10b 1
 !s100 z<K`kPnNA[JhelnRg^A>Y3
 IVK[gl3XGmNWAHU6Vgjc^A0
+R2
 R3
-R4
 w1654707574
 8C:/Users/Ahsan Ali/OneDrive/Desktop/risk/mainDecoder.v
 FC:/Users/Ahsan Ali/OneDrive/Desktop/risk/mainDecoder.v
 L0 2
-R5
+R4
 r1
 !s85 0
 31
-R9
+R8
 !s107 C:/Users/Ahsan Ali/OneDrive/Desktop/risk/mainDecoder.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Ahsan Ali/OneDrive/Desktop/risk/mainDecoder.v|
 !i113 0
-R7
-R1
+R6
+R0
 nmain@decoder
 vmux_2x1
-R8
+R7
 !i10b 1
 !s100 NY=BGVKk7mligS2B15o3=1
 InDZ<H?li=fLgnfNg3hDT[2
+R2
 R3
-R4
 w1653639127
 8C:/Users/Ahsan Ali/OneDrive/Desktop/risk/mux_2x1.v
 FC:/Users/Ahsan Ali/OneDrive/Desktop/risk/mux_2x1.v
 L0 2
-R5
+R4
 r1
 !s85 0
 31
-R9
+R8
 !s107 C:/Users/Ahsan Ali/OneDrive/Desktop/risk/mux_2x1.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Ahsan Ali/OneDrive/Desktop/risk/mux_2x1.v|
 !i113 0
-R7
-R1
+R6
+R0
 vmux_2x1_2_bit
-R8
+R7
 !i10b 1
 !s100 Lg7Pc^z6CE=I2`>z`1_TR1
 I`<BYj<_E=J?BNWNEZLLZk2
+R2
 R3
-R4
 w1654704593
 8C:/Users/Ahsan Ali/OneDrive/Desktop/risk/mux_2x1_2_bit.v
 FC:/Users/Ahsan Ali/OneDrive/Desktop/risk/mux_2x1_2_bit.v
 L0 2
-R5
+R4
 r1
 !s85 0
 31
-R9
+R8
 !s107 C:/Users/Ahsan Ali/OneDrive/Desktop/risk/mux_2x1_2_bit.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Ahsan Ali/OneDrive/Desktop/risk/mux_2x1_2_bit.v|
 !i113 0
-R7
-R1
+R6
+R0
 vnormalAdder
-R8
+R7
 !i10b 1
 !s100 cmOeTbz<i8B6:@fRQ<7oU0
 IF8OBi:fEB[5n:bLUmICz23
+R2
 R3
-R4
 w1650483987
 8C:/Users/Ahsan Ali/OneDrive/Desktop/risk/normalAdder.v
 FC:/Users/Ahsan Ali/OneDrive/Desktop/risk/normalAdder.v
 L0 2
-R5
+R4
 r1
 !s85 0
 31
-R9
+R8
 !s107 C:/Users/Ahsan Ali/OneDrive/Desktop/risk/normalAdder.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Ahsan Ali/OneDrive/Desktop/risk/normalAdder.v|
 !i113 0
-R7
-R1
+R6
+R0
 nnormal@adder
 vPC
-Z10 !s110 1659964264
+R7
 !i10b 1
 !s100 dzzP7CCh7QYInfE_EdBcl1
 IOXP0=S>@Qg_6ghe`N4BK=3
+R2
 R3
-R4
 w1651558371
 8C:/Users/Ahsan Ali/OneDrive/Desktop/risk/PC.v
 FC:/Users/Ahsan Ali/OneDrive/Desktop/risk/PC.v
 L0 2
-R5
+R4
 r1
 !s85 0
 31
-Z11 !s108 1659964264.000000
+R8
 !s107 C:/Users/Ahsan Ali/OneDrive/Desktop/risk/PC.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Ahsan Ali/OneDrive/Desktop/risk/PC.v|
 !i113 0
-R7
-R1
+R6
+R0
 n@p@c
 vprogramMem
-R10
+Z9 !s110 1659967921
 !i10b 1
-!s100 F4OcCLLULgBb>E>6_WFhg3
-Ic3NCbPEjSY[d6cHM6^KaA3
+!s100 aCCaK?`31J6iYohIf^GzO2
+I6eXb8OI?6gPfA:^:TPo?e1
+R2
 R3
-R4
-w1659889068
+w1659967906
 8C:/Users/Ahsan Ali/OneDrive/Desktop/risk/programMem.v
 FC:/Users/Ahsan Ali/OneDrive/Desktop/risk/programMem.v
 L0 2
-R5
+R4
 r1
 !s85 0
 31
-R11
+R8
 !s107 C:/Users/Ahsan Ali/OneDrive/Desktop/risk/programMem.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Ahsan Ali/OneDrive/Desktop/risk/programMem.v|
 !i113 0
-R7
-R1
+R6
+R0
 nprogram@mem
 vRegFile
-R10
+R9
 !i10b 1
 !s100 nKVejja7fMjzhgWbBbVei0
 I1a3AIJWS2_T@:hnc?jJ7>0
+R2
 R3
-R4
 w1653662192
 8C:/Users/Ahsan Ali/OneDrive/Desktop/risk/RegFile.v
 FC:/Users/Ahsan Ali/OneDrive/Desktop/risk/RegFile.v
 L0 2
-R5
+R4
 r1
 !s85 0
 31
-R11
+Z10 !s108 1659967921.000000
 !s107 C:/Users/Ahsan Ali/OneDrive/Desktop/risk/RegFile.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Ahsan Ali/OneDrive/Desktop/risk/RegFile.v|
 !i113 0
-R7
-R1
+R6
+R0
 n@reg@file
 vRISC
-R10
+R9
 !i10b 1
 !s100 zf^QR]0PlY^IJU4>B;f2d1
 ITD`KeTPKmQ;iVCi1FmOVZ3
+R2
 R3
-R4
 w1659960377
 8C:/Users/Ahsan Ali/OneDrive/Desktop/risk/RISC.v
 FC:/Users/Ahsan Ali/OneDrive/Desktop/risk/RISC.v
 L0 2
-R5
+R4
 r1
 !s85 0
 31
-R11
+R10
 !s107 C:/Users/Ahsan Ali/OneDrive/Desktop/risk/RISC.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Ahsan Ali/OneDrive/Desktop/risk/RISC.v|
 !i113 0
-R7
-R1
+R6
+R0
 n@r@i@s@c
 vRISC_controller
-R10
+R9
 !i10b 1
 !s100 >KBN064<4bzZ2Z4cebVTB3
 I4KYIBV@3i:01?[Kb1;QMN0
+R2
 R3
-R4
 w1650484120
 8C:/Users/Ahsan Ali/OneDrive/Desktop/risk/RISC_controller.v
 FC:/Users/Ahsan Ali/OneDrive/Desktop/risk/RISC_controller.v
 L0 2
-R5
+R4
 r1
 !s85 0
 31
-R11
+R10
 !s107 C:/Users/Ahsan Ali/OneDrive/Desktop/risk/RISC_controller.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Ahsan Ali/OneDrive/Desktop/risk/RISC_controller.v|
 !i113 0
-R7
-R1
+R6
+R0
 n@r@i@s@c_controller
 vsignExt
-R10
+R9
 !i10b 1
 !s100 Wz:D31_X[Paf=cnUIzX[73
 I^Fo1DWJIS8I3;iS[2KKRG0
+R2
 R3
-R4
 w1653672573
 8C:/Users/Ahsan Ali/OneDrive/Desktop/risk/signExt.v
 FC:/Users/Ahsan Ali/OneDrive/Desktop/risk/signExt.v
 L0 2
-R5
+R4
 r1
 !s85 0
 31
-R11
+R10
 !s107 C:/Users/Ahsan Ali/OneDrive/Desktop/risk/signExt.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Ahsan Ali/OneDrive/Desktop/risk/signExt.v|
 !i113 0
-R7
-R1
+R6
+R0
 nsign@ext
 vtb_RISC
-R10
+R9
 !i10b 1
 !s100 _KHOR:k?eSGAej86S@R_K0
 ID3QORGPEb;nRoA>n<KlGS0
+R2
 R3
-R4
 w1659807249
 8C:/Users/Ahsan Ali/OneDrive/Desktop/risk/tb_RISC.v
 FC:/Users/Ahsan Ali/OneDrive/Desktop/risk/tb_RISC.v
 L0 2
-R5
+R4
 r1
 !s85 0
 31
-R11
+R10
 !s107 C:/Users/Ahsan Ali/OneDrive/Desktop/risk/tb_RISC.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Ahsan Ali/OneDrive/Desktop/risk/tb_RISC.v|
 !i113 0
-R7
-R1
+R6
+R0
 ntb_@r@i@s@c
