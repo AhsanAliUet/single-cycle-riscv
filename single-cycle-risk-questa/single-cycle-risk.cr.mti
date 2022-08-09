@@ -33,6 +33,13 @@ QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
 Top level modules:
 	tb_RISC
 
+} {} {}} {C:/Users/Ahsan Ali/OneDrive/Desktop/risk/RISC.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Ahsan Ali/OneDrive/Desktop/risk/RISC.v}
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module RISC
+
+Top level modules:
+	RISC
+
 } {} {}} {C:/Users/Ahsan Ali/OneDrive/Desktop/risk/controlUnit.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Ahsan Ali/OneDrive/Desktop/risk/controlUnit.v}
 QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
 -- Compiling module controlUnit
