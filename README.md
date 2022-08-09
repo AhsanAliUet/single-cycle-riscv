@@ -21,7 +21,7 @@ We can write our assembly instructions in assemFile.txt and then save the file. 
 Python Interpreter will read assemFile.txt and convert this to machineCodeInBinary.txt which contains binary code to insert in the Instruction memory of processor. 
 Now we are ready to run/boot our processor. 
 
-Please make sure the path to the binary file in the file programMemomry.v is correct
+Please make sure the path to the binary file in the file programMem.v is correct
 
 ## Putting it all together
 
