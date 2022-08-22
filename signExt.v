@@ -25,7 +25,7 @@ module signExt(in, out, ImmSrc);
 	if (ImmSrc == 2'b10)    //beq
 	begin
 
-		out = {{20{in[31]}}, in[7], in[30:25], in[11:8], 1'b0};
+		out = {{20{in[31]}}, in[7], in[30:25], in[11:8], 1'b1};
 	end
 	
 	if (ImmSrc == 2'b11) //jal

@@ -20,7 +20,7 @@ module programMem(clk, InsOut, in, rst);    //InsOut = Output instruction
 		
 	end
 	
-	always @ (*)   //
+	always @ (*)   //Do not change it to (posedge clk or posedge rst) otherwise, branch instruction will not work file. Just a matter of experience
 	begin
 		if (!rst) begin
 			InsOut <= Registers[in];              //Instruction is coming out

@@ -15,7 +15,7 @@ module programMem(clk, InsOut, in, rst);    //InsOut = Output instruction
 	integer i;
 	
 	initial begin
-		$readmemb("C://Users//Ahsan Ali//OneDrive//Desktop//Complete_Assembler//machineCodeInBinary.txt", Registers);     //our own made assembler 
+		$readmemb("C://Users//Ahsan Ali//OneDrive//Desktop//risk//Complete_Assembler//machineCodeInBinary.txt", Registers);     //our own made assembler 
 		//$readmemb("C://Users//Ahsan Ali//OneDrive//Desktop//Assembly-To-Machine-Code-RISC-V-master//machineCodeInBinary.txt", Registers);     //someone else's assembler
 		
 	end
