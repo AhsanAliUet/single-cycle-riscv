@@ -33,6 +33,13 @@ QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
 Top level modules:
 	tb_RISC
 
+} {} {}} {C:/Users/Ahsan Ali/OneDrive/Desktop/risk/RISC.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Ahsan Ali/OneDrive/Desktop/risk/RISC.v}
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module RISC
+
+Top level modules:
+	RISC
+
 } {} {}} {C:/Users/Ahsan Ali/OneDrive/Desktop/risk/controlUnit.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Ahsan Ali/OneDrive/Desktop/risk/controlUnit.v}
 QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
 -- Compiling module controlUnit
@@ -82,19 +89,19 @@ QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
 Top level modules:
 	programMem
 
-} {} {}} {C:/Users/Ahsan Ali/OneDrive/Desktop/risk/adder.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Ahsan Ali/OneDrive/Desktop/risk/adder.v}
-QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
--- Compiling module adder
-
-Top level modules:
-	adder
-
 } {} {}} {C:/Users/Ahsan Ali/OneDrive/Desktop/risk/ALUDecoder.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Ahsan Ali/OneDrive/Desktop/risk/ALUDecoder.v}
 QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
 -- Compiling module ALUDecoder
 
 Top level modules:
 	ALUDecoder
+
+} {} {}} {C:/Users/Ahsan Ali/OneDrive/Desktop/risk/adder.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Ahsan Ali/OneDrive/Desktop/risk/adder.v}
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module adder
+
+Top level modules:
+	adder
 
 } {} {}} {C:/Users/Ahsan Ali/OneDrive/Desktop/risk/signExt.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Ahsan Ali/OneDrive/Desktop/risk/signExt.v}
 QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
