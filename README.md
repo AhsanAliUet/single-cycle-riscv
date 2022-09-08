@@ -16,7 +16,11 @@ I have checked all of the instructions I supported for this but I want to check 
 
 I am giving the instructions (instruction memory of program memory) to the processor from a file called machineCodeInBinary.txt which is generated using Python script which uses assembly instructions file called assemFile.txt
 
-We can write our assembly instructions in assemFile.txt and then save the file. After that, there is a file mainFile.py in the folder Complete_Assembler, we can run this file using any Python Interpreter (I use Anaconda). 
+We can write our assembly instructions in assemFile.txt and then save the file. After that, there is a file mainFile.py in the folder Complete_Assembler, we can run this file using any Python Interpreter (I use Anaconda). To avoid any more installations on your computer, I have made an executable file mainFile.exe 
+
+If you write your assembly code in assemFile.txt and save it, after that double click it(or simply open it). Your files will be updates. You will have all the machine codes for your assembly code in the file machineCodes.txt
+
+Another two files machineCodeInBinary.txt and machineCodeInHex.txt will also be updated with your assembly code. Use whichever you want.
 
 Python Interpreter will read assemFile.txt and convert this to machineCodeInBinary.txt which contains binary code to insert in the Instruction memory of processor. 
 Now we are ready to run/boot our processor. 
